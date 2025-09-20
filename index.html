@@ -30,8 +30,18 @@
             font-size: 2.2em;
             font-weight: 600;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px; /* Adjust margin to bring authors closer */
             color: #212529;
+        }
+        
+        /* Authors */
+        h3.authors { /* Specific style for authors */
+            font-size: 1.2em;
+            font-weight: normal; /* Lighter weight for author names */
+            text-align: center;
+            margin-top: 0; /* Remove top margin from previous h3 */
+            margin-bottom: 40px; /* Space after authors */
+            color: #6c757d;
         }
 
         h2 {
@@ -43,32 +53,46 @@
             color: #495057;
         }
         
-        h4 {
+        h3 { /* For Robot Categories like "Everyday Robot" */
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-top: 50px; /* Spacing before robot category */
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+        
+        h4 { /* For System Names like "GenEM", "CRISP" */
             font-size: 1.2em;
             font-weight: 600;
-            margin-top: 40px;
+            margin-top: 30px; /* Spacing before system name */
             margin-bottom: 15px;
             color: #343a40;
         }
         
-        p {
-            font-size: 1.1em;
-            color: #6c757d;
-            text-align: center;
+        /* Scenario text style */
+        p.scenario-text {
+            font-size: 1.15em;
+            font-weight: 500; /* Slightly bolder for scenario */
+            font-style: italic; /* Italicize for distinction */
+            margin-top: 15px;
+            margin-bottom: 30px; /* Space after scenario before videos start */
+            color: #495057;
+            text-align: left; /* Align to left for better readability */
         }
 
         /* Content Box for videos and PDFs */
         .content-box {
             border-radius: 8px;
-            overflow: hidden; /* Ensures content fits within the rounded corners */
+            overflow: hidden;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+            margin-bottom: 25px; /* Space after each video/pdf embed */
         }
         
         /* Responsive iFrames */
         iframe {
             border: none;
             width: 100%;
-            display: block; /* Removes bottom margin */
+            display: block;
         }
         
         .video-wrapper {
@@ -93,36 +117,37 @@
     <div class="container">
 
         <h1>The Robot's Inner Critic: Self-Refinement of Social Behaviors through VLM-based Replanning</h1>
-        <p>Anonymous Authors</p>
+        <h3 class="authors">Anonymous Authors</h3> <h2>🎬 Experiment & Simulation Videos</h2>
 
-        <h2>🎬 Experiment & Simulation Videos</h2>
-
-        <h3>Everyday Robot</h3>
-        <h4>[Scenario: "A person waves their hand to greet you."]</h4>
-        <h6>GenEM</h6>
+        <h3>Everyday Robot</h3> <p class="scenario-text">[Scenario: "A person waves their hand to greet you."]</p> 
+        <h4>GenEM</h4> 
         <div class="content-box video-wrapper">
-            <iframe src="https://youtu.be/WAJ88Za3FdI" 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rhuZbad10PU?si=dkLOYalvMAu8rhP1" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+
+        <h4>CRISP w/o replan</h4>
+        <div class="content-box video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WAJ88Za3FdI?si=SQmckN6DS9oBYtSs" 
                     title="YouTube video player" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
             </iframe>
         </div>
 
-        <h6>CRISP w/o replan</h6>
+        <h4>CRISP</h4> 
         <div class="content-box video-wrapper">
-            <iframe src="https://youtu.be/rhuZbad10PU" 
-                    title="YouTube video player" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-
-        <h6>CRISP</h6>
-        <div class="content-box video-wrapper">
-            <iframe src="https://youtu.be/e47hXGSfRkY" 
-                    title="YouTube video player" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e47hXGSfRkY?si=b1992X8rv3AcW6IW" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
             </iframe>
         </div>
         
