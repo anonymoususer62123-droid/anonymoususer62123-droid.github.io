@@ -86,16 +86,6 @@
             overflow: hidden;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
             margin-bottom: 25px;
-            text-align: center;
-        }
-
-        /* New style for the embedded image */
-        .content-box img.prompt-img {
-            max-width: 80%; 
-            height: auto;
-            display: inline-block;
-            border-radius: 8px;
-            margin: 0 auto; 
         }
         
         /* Responsive iFrames */
@@ -139,7 +129,8 @@
         <!-- ✅ MODIFIED: Changed from iframe to video tag -->
         <div class="content-box">
             <video controls style="width:100%; display: block;">
-                <source src="videos/gr_shake_Gen.mp4" type="video/mp4">
+                <!-- ❗️ IMPORTANT: Change 'genem_video.mp4' to your actual video file name -->
+                <source src="videos/genem_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -148,7 +139,8 @@
         <!-- ✅ MODIFIED: Changed from iframe to video tag -->
         <div class="content-box">
             <video controls style="width:100%; display: block;">
-                <source src="videos/gr_shakehand_noreplan.mp4" type="video/mp4">
+                <!-- ❗️ IMPORTANT: Change 'crisp_no_replan_video.mp4' to your actual video file name -->
+                <source src="videos/crisp_no_replan_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -157,7 +149,8 @@
         <!-- ✅ MODIFIED: Changed from iframe to video tag -->
         <div class="content-box">
             <video controls style="width:100%; display: block;">
-                <source src="videos/gr_shakehand_replan.mp4" type="video/mp4">
+                <!-- ❗️ IMPORTANT: Change 'crisp_video.mp4' to your actual video file name -->
+                <source src="videos/crisp_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -166,7 +159,7 @@
 
         <h4>[Prompt Title: VLM Prompts Used in the Experiment]</h4>
         <div class="content-box">
-            <img src="prompts/prompt1.png" alt="Prompt provided to the LLM" class="prompt-img">
+             <iframe src="prompts/prompt1.pdf" height="600px"></iframe>
         </div>
 
     </div>
