@@ -12,14 +12,11 @@ Anonymous Author(s)
 
 ### Scenario 1: Listening to a Caring Gesture
 
-**Context:**  
-Corrina bakes a chocolate cake with vanilla frosting because she wants to show Eriq how much she cares about him. She hopes that the cake will impress him and make him realize how special he is to her.
+**Context:** Corrina bakes a chocolate cake with vanilla frosting because she wants to show Eriq how much she cares about him. She hopes that the cake will impress him and make him realize how special he is to her.
 
-<p align="left">
-  <video src="https://github.com/anonymoususer62123-droid/anonymoususer62123-droid.github.io/raw/main/videos/scenario_1.mp4" width="100%" controls muted playsinline>
-    Your browser does not support the video tag.
-  </video>
-</p>>
+<div align="left">
+  <video src="https://github.com/anonymoususer62123-droid/anonymoususer62123-droid.github.io/raw/main/videos/scenario_1.mp4" width="100%" controls muted playsinline></video>
+</div>
 
 ---
 
