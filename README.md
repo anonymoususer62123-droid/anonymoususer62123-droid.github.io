@@ -15,9 +15,11 @@ Anonymous Author(s)
 **Context:**  
 Corrina bakes a chocolate cake with vanilla frosting because she wants to show Eriq how much she cares about him. She hopes that the cake will impress him and make him realize how special he is to her.
 
-<video controls width="100%" style="max-width:800px;">
-  <source src="videos/scenario_1.mp4" type="video/mp4">
-</video>
+<p align="left">
+  <video src="https://github.com/anonymoususer62123-droid/anonymoususer62123-droid.github.io/raw/main/videos/scenario_1.mp4" width="100%" controls muted playsinline>
+    Your browser does not support the video tag.
+  </video>
+</p>>
 
 ---
 
