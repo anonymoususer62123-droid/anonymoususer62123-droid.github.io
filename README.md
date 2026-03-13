@@ -12,11 +12,19 @@ Anonymous Author(s)
 
 ### Scenario 1: Listening to a Caring Gesture
 
-**Context:** Corrina bakes a chocolate cake with vanilla frosting because she wants to show Eriq how much she cares about him. She hopes that the cake will impress him and make him realize how special he is to her.
+**Context:** The user (Corrina) explains her thoughtful gesture of baking a chocolate cake with vanilla frosting as a way to express her care and affection for the listener.
 
 <p align="left">
-  <video src="https://github.com/user-attachments/assets/1718804e-1b6d-4058-aa87-1f6d1097b794" width="100%" controls muted playsinline>
-    Your browser does not support the video tag.
+  <video src="https://github.com/user-attachments/assets/1daf5c2c-194e-42fa-8888-4d416758f547" width="100%" controls muted playsinline>
+  </video>
+</p>
+
+### Scenario 2: Listening to an extended explanation
+
+**Context:** The user (Tyasia) emphasizes how the Renaissance and the printing press sparked a massive cultural awakening by rapidly spreading knowledge.
+
+<p align="left">
+  <video src="https://github.com/user-attachments/assets/87f7dbea-35f3-44a9-b42f-b2e8f68cc907" width="100%" controls muted playsinline>
   </video>
 </p>
 
