@@ -10,7 +10,7 @@ Anonymous Author(s)
 
 ## Experiment & Simulation Videos
 
-### Scenario 1: Listening to a Caring Gesture
+### Scenario 1: Listening to a Caring Gesture (Appreciation)
 
 **Context:** The user (Corrina) explains her thoughtful gesture of baking a chocolate cake with vanilla frosting as a way to express her care and affection for the listener.
 
@@ -19,7 +19,7 @@ Anonymous Author(s)
   </video>
 </p>
 
-### Scenario 2: Listening to an extended explanation
+### Scenario 2: Listening to an Informative Explanation (Continuer)
 
 **Context:** The user (Tyasia) emphasizes how the Renaissance and the printing press sparked a massive cultural awakening by rapidly spreading knowledge.
 
